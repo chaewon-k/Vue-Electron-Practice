@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -14,6 +16,7 @@
   "main": "background.js",
   "dependencies": {
     "@mdi/font": "^3.6.95",
+    "@toast-ui/vue-editor": "^2.5.1",
     "core-js": "^3.6.5",
     "roboto-fontface": "*",
     "vue": "^2.6.11",
